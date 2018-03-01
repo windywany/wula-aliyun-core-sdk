@@ -1,0 +1,28 @@
+{
+    "name": "wula/aliyun",
+    "description": "Aliyun Core SDK for PHP",
+    "keywords": [ "aliyun", "sdk" ],
+    "type": "library",
+    "license": "Apache-2.0",
+    "homepage": "https://www.aliyun.com",
+    "authors": [
+        {
+            "name": "Aliyuncs",
+            "homepage": "https://www.aliyun.com"
+        },
+        {
+            "name":"Leo Ning",
+            "homepage": "https://www.wulacms.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "Aliyun\\": "lib/"
+        }
+    }
+}
